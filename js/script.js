@@ -65,4 +65,27 @@ var $grid = $('.grid').isotope({
     }
   })
   
+  $('.field-input').focus(function(){
+    $(this).parent().addClass('is-focused has-label');
+  })
+
+  $('.field-input').blur(function(){
+    $parent = $(this).parent();
+    if($(this).val()== ''){
+      $parent.removeClass('has-label');
+    }
+    $parent.removeClass('is-focused');
+  })
+
+  $('.area-input').focus(function(){
+    $(this).parent().addClass('is-focused has-label');
+  })
+
+  $('.area-input').blur(function(){
+    $parent = $(this).parent();
+    if($(this).val()== ''){
+      $parent.removeClass('has-label');
+    }
+    $parent.removeClass('is-focused');
+  })
 })
