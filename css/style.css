@@ -77,7 +77,7 @@ and (max-width : 667px) {
   }
   
   .element-item.large{
-    width: 320px;
+    width: 620px;
   }
 }
 
@@ -93,6 +93,14 @@ and (max-width : 667px) {
   font-size: 16px;
   letter-spacing: 3px;
   cursor: pointer;
+}
+
+@media only screen 
+and (min-width : 300px) 
+and (max-width : 667px) {
+  .button {
+    font-size: 30px;
+  }
 }
 
 .button:after {
