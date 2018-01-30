@@ -178,6 +178,7 @@ svg{
 }
 .form{
   margin-top: -25px;
+  padding-left: 10px;
   font-family: 'Raleway', sans-serif;
 }
 .field{
@@ -312,6 +313,11 @@ and (max-width : 780px) {
   }
 }
 
+big{
+  font-size: 18px;
+  font-style: italic;
+}
+
 /* ---- filters buttons ---- */
 
 .button {
@@ -324,6 +330,13 @@ and (max-width : 780px) {
   font-size: 16px;
   letter-spacing: 3px;
   cursor: pointer;
+}
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 568px) {
+  .button{
+    font-size: 22px;
+  }
 }
 
 .button:after {
@@ -388,7 +401,7 @@ and (max-width : 780px) {
 
 .header img{
   display: block;
-  margin: 0 auto 0 0;
+  margin: 0 auto;
   max-width: 965px;
 }
 
