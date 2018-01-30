@@ -48,7 +48,96 @@ h2{
 /* ---- .grid ---- */
 
 .grid{
+  max-width: 100%;
   margin-bottom: 40px;  
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  width: 150px;
+  margin: 5px;
+}
+
+.element-item.large{
+  width: 465px;
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen 
+and (min-width : 300px) 
+and (max-width : 667px) {
+  .element-item {
+    width: 310px;
+    margin: 3px;
+  }
+  
+  .element-item.large{
+    width: 320px;
+  }
+}
+
+/* ---- filters buttons ---- */
+
+.button {
+  display: inline-block;
+  border: none;
+  background: none;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  color: rgba(32, 32, 32, 0.5);
+  font-size: 16px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0%;
+  background-color: #222;
+  transition: width 0.2s ease-out;
+}
+
+.button:hover {
+  color: #222;
+}
+
+.button:hover:after {
+  width: 96%;
+  transition: width 0.3s ease-in-out;
+}
+
+.button:active,
+.button.is-checked {
+  border: none;
+  outline: 0;
+  color: #222;
+}
+
+.button:active:after,
+.button.is-checked:after {
+  width: 96%;
+}
+
+/* ---- img ---- */
+
+.header img{
+  display: block;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.grid img{
+  width: 100%;
+}
+.footer-content img{
+  margin: 25px 0;
 }
 
 /* ---- .footer ---- */
@@ -318,85 +407,10 @@ big{
   font-style: italic;
 }
 
-/* ---- filters buttons ---- */
-
-.button {
-  display: inline-block;
-  border: none;
-  background: none;
-  margin-right: 20px;
-  margin-bottom: 30px;
-  color: rgba(32, 32, 32, 0.5);
-  font-size: 16px;
-  letter-spacing: 3px;
-  cursor: pointer;
-}
-
-.button:after {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 0%;
-  background-color: #222;
-  transition: width 0.2s ease-out;
-}
-
-.button:hover {
-  color: #222;
-}
-
-.button:hover:after {
-  width: 96%;
-  transition: width 0.3s ease-in-out;
-}
-
-.button:active,
-.button.is-checked {
-  border: none;
-  outline: 0;
-  color: #222;
-}
-
-.button:active:after,
-.button.is-checked:after {
-  width: 96%;
-}
-
 /* clear fix */
 
 .grid:after {
   content: '';
   display: block;
   clear: both;
-}
-
-/* ---- .element-item ---- */
-
-.element-item {
-  width: 182px;
-  margin: 5px;
-}
-
-.element-item.large{
-  width: 374px;
-}
-
-.element-item > * {
-  margin: 0;
-  padding: 0;
-}
-
-/* ---- img ---- */
-
-.header img{
-  display: block;
-  margin: 0 auto;
-  max-width: 960px;
-}
-
-.grid img{
-  width: 100%;
-}
-.footer-content img{
-  margin: 25px 0;
 }
