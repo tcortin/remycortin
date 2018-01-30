@@ -1,6 +1,9 @@
 jQuery(function($){
     // external js: isotope.pkgd.js
 
+    $(window).load(function(){
+
+    
 // init Isotope
 var portfolio = $('#portfolio');
 var grid = $('.grid');
@@ -9,9 +12,10 @@ var $grid = $('.grid').isotope({
     layoutMode: 'masonry',
     transitionDuration: '0.8s',
     masonry: {
-        columnWidth: 6,
+        columnWidth: 160,
     }
   });
+
 
   // filter functions
   var filterFns = {
@@ -88,4 +92,5 @@ var $grid = $('.grid').isotope({
     }
     $parent.removeClass('is-focused');
   })
+});
 })
