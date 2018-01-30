@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Raleway', sans-serif;
+  font-size: 16px;
   margin: 0 auto;
 }
 
@@ -49,7 +50,7 @@ h2{
 
 .grid{
   max-width: 100%;
-  margin-bottom: 40px;  
+  margin-bottom: 40px;
 }
 
 /* ---- .element-item ---- */
@@ -90,17 +91,9 @@ and (max-width : 667px) {
   margin-right: 20px;
   margin-bottom: 30px;
   color: rgba(32, 32, 32, 0.5);
-  font-size: 16px;
+  font-size: inherit;
   letter-spacing: 3px;
   cursor: pointer;
-}
-
-@media only screen 
-and (min-width : 300px) 
-and (max-width : 667px) {
-  .button {
-    font-size: 30px;
-  }
 }
 
 .button:after {
