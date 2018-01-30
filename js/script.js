@@ -1,7 +1,7 @@
 jQuery(function($){
     // external js: isotope.pkgd.js
 
-    $(window).load(function(){
+$(window).load(function(){
 
     
 // init Isotope
@@ -12,7 +12,7 @@ var $grid = $('.grid').isotope({
     layoutMode: 'masonry',
     transitionDuration: '0.8s',
     masonry: {
-        columnWidth: 160,
+        columnWidth: 192,
     }
   });
 

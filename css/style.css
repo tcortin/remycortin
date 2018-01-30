@@ -373,24 +373,12 @@ big{
 /* ---- .element-item ---- */
 
 .element-item {
-  float: left;
-  width: 150px;
-  height: 225px;
+  width: 182px;
   margin: 5px;
 }
 
-@media only screen 
-and (min-width : 300px) 
-and (max-width : 568px) {
-  .element-item{
-    width: 230px;
-    height: 345px;
-  }
-}
-
 .element-item.large{
-  width: 470px;
-  height: 695px;
+  width: 374px;
 }
 
 .element-item > * {
@@ -407,7 +395,7 @@ and (max-width : 568px) {
 }
 
 .grid img{
-    width: 100%;
+  width: 100%;
 }
 .footer-content img{
   margin: 25px 0;
