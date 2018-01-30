@@ -12,6 +12,14 @@ body {
   margin: 0 auto;
   max-width: 980px;
 }
+@media only screen 
+and (min-width : 300px) 
+and (max-width : 568px) {
+  .portfolio{
+    max-width: 640px;
+  }
+}
+    
 
 /* ---- nav .icon ---- */
 
@@ -306,7 +314,7 @@ input[type=submit]{
   font-size: 22px;
 }
 @media only screen 
-and (min-width : 320px) 
+and (min-width : 300px) 
 and (max-width : 780px) {
   .about-me{
     display: none;
@@ -330,13 +338,6 @@ big{
   font-size: 16px;
   letter-spacing: 3px;
   cursor: pointer;
-}
-@media only screen 
-and (min-width : 300px) 
-and (max-width : 568px) {
-  .button{
-    font-size: 22px;
-  }
 }
 
 .button:after {
