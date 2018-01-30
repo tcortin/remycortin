@@ -379,6 +379,14 @@ big{
   margin: 5px;
 }
 
+@media only screen 
+and (min-width : 300px) 
+and (max-width : 568px) {
+  .element-item{
+    width: 230px;
+    height: 345px;
+  }
+}
 
 .element-item.large{
   width: 470px;
