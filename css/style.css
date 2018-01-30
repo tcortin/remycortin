@@ -332,7 +332,7 @@ big{
   cursor: pointer;
 }
 @media only screen 
-and (min-width : 320px) 
+and (min-width : 300px) 
 and (max-width : 568px) {
   .button{
     font-size: 22px;
