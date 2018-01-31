@@ -408,6 +408,12 @@ and (max-width : 780px) {
     max-width: 100%;
   }
 
+  .button-group{
+
+    width: 320px;
+    margin-right: auto;
+  }
+
   .grid{
     width: 320px;
     margin-right: auto;
