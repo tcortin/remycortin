@@ -398,14 +398,10 @@ big{
 
 @media only screen 
 and (min-width : 300px) 
-and (max-width : 780px) {
+and (max-width : 750px) {
 
   .header {
     margin: 60px auto;
-  }
-  
-  .header img{
-    max-width: 100%;
   }
 
   .button-group{
@@ -461,6 +457,63 @@ and (max-width : 780px) {
 
   .about-me{
     display: none;
+  }
+
+}
+
+@media only screen 
+and (min-width : 760px) 
+and (max-width : 1024px) {
+  
+  .button-group{
+
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .grid{
+    width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .element-item {
+    width: 70px;
+    margin: 5px;
+  }
+  
+  .element-item.large{
+    width: 225px;
+  }
+
+  .button {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+
+  .footer {
+    height: 400px;
+  }
+
+  .footer.is-opened{
+    margin-top: -400px;
+  }
+
+  .footer-content img{
+    display: none;
+  }
+
+  .form{
+    padding-right: 10px;
+  }
+
+  .area{
+    height: 115px;
+  }
+
+  .area-input{
+    height: 70px;
   }
 
 }
