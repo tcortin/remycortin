@@ -410,10 +410,11 @@ and (max-width : 780px) {
   }
   
   .element-item.large{
-    width: 230px;
+    width: 220px;
   }
 
   .button {
+    font-size: 14px;
     margin-right: 10px;
   }
 
