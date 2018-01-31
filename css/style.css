@@ -442,6 +442,10 @@ and (max-width : 780px) {
     height: 115px;
   }
 
+  .area-input{
+    height: 70px;
+  }
+
   .about-me{
     display: none;
   }
