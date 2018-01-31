@@ -414,15 +414,16 @@ and (max-width : 780px) {
   }
   
   .element-item.large{
-    width: 220px;
+    width: 225px;
   }
 
   .button {
-    font-size: 14px;
+    font-size: 12px;
     margin-right: 5px;
   }
 
   .about-me{
     display: none;
+  }
 
 }
