@@ -423,11 +423,11 @@ and (max-width : 780px) {
   }
 
   .footer {
-    height: 450px;
+    height: 400px;
   }
 
   .footer.is-opened{
-    margin-top: -450px;
+    margin-top: -400px;
   }
 
   .footer-content img{
@@ -436,6 +436,10 @@ and (max-width : 780px) {
 
   .form{
     padding-right: 10px;
+  }
+
+  .area{
+    height: 115px;
   }
 
   .about-me{
