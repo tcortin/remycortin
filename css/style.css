@@ -404,6 +404,10 @@ and (max-width : 750px) {
     margin: 60px auto;
   }
 
+  .header img{
+    max-width: 100%;
+  }
+
   .button-group{
 
     width: 320px;
@@ -465,6 +469,10 @@ and (max-width : 750px) {
 and (min-width : 760px) 
 and (max-width : 1024px) {
   
+  .header img{
+    max-width: 100%;
+  }
+
   .button-group{
 
     width: 640px;
