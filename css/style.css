@@ -413,6 +413,10 @@ and (max-width : 780px) {
     width: 230px;
   }
 
+  .button {
+    margin-right: 10px;
+  }
+
   .about-me{
     display: none;
 
