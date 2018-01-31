@@ -400,6 +400,10 @@ big{
 and (min-width : 300px) 
 and (max-width : 780px) {
 
+  .header {
+    margin: 60px auto;
+  }
+  
   .header img{
     max-width: 100%;
   }
@@ -410,12 +414,11 @@ and (max-width : 780px) {
   }
   
   .element-item.large{
-    width: 220px;
+    width: 210px;
   }
 
   .button {
-    font-size: 14px;
-    margin-right: 10px;
+    margin-right: 5px;
   }
 
   .about-me{
