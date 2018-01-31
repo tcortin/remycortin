@@ -423,11 +423,19 @@ and (max-width : 780px) {
   }
 
   .footer {
-    height: 500px;
+    height: 450px;
   }
 
   .footer.is-opened{
-    margin-top: -500px;
+    margin-top: -450px;
+  }
+
+  .footer-content img{
+    display: none;
+  }
+
+  .form{
+    padding-right: 10px;
   }
 
   .about-me{
