@@ -422,6 +422,10 @@ and (max-width : 780px) {
     margin-right: 5px;
   }
 
+  .footer {
+    height: 500px;
+  }
+
   .about-me{
     display: none;
   }
