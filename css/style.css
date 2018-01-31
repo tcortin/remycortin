@@ -426,6 +426,10 @@ and (max-width : 780px) {
     height: 500px;
   }
 
+  .footer.is-opened{
+    margin-top: -500px;
+  }
+
   .about-me{
     display: none;
   }
