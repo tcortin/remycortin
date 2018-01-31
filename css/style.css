@@ -49,7 +49,7 @@ h2{
 /* ---- .grid ---- */
 
 .grid{
-  min-width: 100%;
+  max-width: 100%;
   margin-bottom: 40px;
 }
 
@@ -406,6 +406,12 @@ and (max-width : 780px) {
   
   .header img{
     max-width: 100%;
+  }
+
+  .grid{
+    width: 320px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .element-item {
