@@ -400,27 +400,17 @@ big{
 and (min-width : 300px) 
 and (max-width : 780px) {
 
-  .icon {
-    width: 50px;
-    height: 50px;
+  .header img{
+    max-width: 100%;
   }
 
   .element-item {
-    width: 310px;
+    width: 70px;
     margin: 5px;
   }
   
   .element-item.large{
-    width: 465px;
-  }
-
-  .button {
-    font-size: 25px;
-  }
-
-  .footer-icon{
-    width: 100px;
-    height: 100px;
+    width: 230px;
   }
 
   .about-me{
